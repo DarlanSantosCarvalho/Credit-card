@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="cartao">
+        <img src="assets/images/bg-main-desktop.png" alt="Fundo roxo">
+
+        <div class="cartoes">
+
+            <div class="cartao-frente"><img src="assets/images/bg-card-front.png" alt="">
+
+                <div class="dados-cartao">
+                    <p id="numero-novo" class="numero-cartao">0000 0000 0000 0000</p>
+                    <p id="nome-novo" class="nome-cartao">Nome Sobrenome</p>
+                    <p id="validade-nova" class="validade-cartao">00/00</p>
+                </div>
+
+            </div>
+
+            <div class="cartao-costas"><img src="assets/images/bg-card-back.png" alt="">
+                <div class="cvv-cartao">
+                    <p class="cvv">000</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="formulario">
+
+        <div class="usuario-card">
+            <p>Usuário do cartão</p>
+            <input type="text" name="" class="nome-cartao-input formulario" id="nome-input" placeholder="Ex: Elon Musk">
+        </div>
+
+        <div class="number-card">
+            <p>Numero do cartão</p>
+            <input type="text" maxlength="19" class="numero-cartao-input formulario" id="numero-input"
+                placeholder="1234 5678 9123 0000">
+        </div>
+
+        <div class="conjunto-card-form">
+
+            <div class="validade">
+                <p>Data de expiração</p>
+                <input type="text" maxlength="2" class="mes-cartao formulario" id="mes-input" placeholder="MM">
+                <input type="text" maxlength="2" class="ano-cartao form" id="ano-input" placeholder="YY">
+            </div>
+
+            <div class="numero-card">
+                <p>CVV</p>
+                <input type="text" maxlength="3" class="validacao-cartao formulario" id="cvv-input"
+                    placeholder="Ex: 123">
+            </div>
+        </div>
+
+        <input class="confirmar" id="submit" type="submit" value="Confirmar">
+    </div>
+</body>
+
+
+</html>
