@@ -11,15 +11,14 @@ html{
     font-family: 'Kanit', sans-serif;
 }
 
-body{
+div.container{
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-.cartao img{
+.imagem-fundo img{
     height: 100vh;
-    width: 450px;
+    width: 500px;
     position: relative;
 }
 
@@ -36,12 +35,12 @@ body{
 
 .cartao-frente{
     top: 120px;
-    left: 150px;
+    left: 200px;
 }
 
 .cartao-costas{
     top: 380px;
-    left: 250px;
+    left: 320px;
 }
 
 .dados-cartao{
@@ -80,14 +79,16 @@ p{
     position: absolute;
     top: 95px;
     left: 280px;
+    font-size: 1.2rem;
 }
 
 .formulario{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-top: 200px;
     width: 350px;
-    margin-right: 250px;
+    margin-right: 200px;
 }
 
 .formulario input{
@@ -112,7 +113,7 @@ p{
 
 .validade .mes-cartao,
 .ano-cartao{
-    width: 60px;
+    width: 55px;
 }
 
 .validade{
@@ -123,8 +124,8 @@ p{
 
 .ano-cartao{
     position: absolute;
-    top: 23px;
-    left: 80px;
+    top: 28px;
+    left: 70px;
 }
 
 .formulario p{
@@ -140,3 +141,6 @@ p{
     cursor: pointer;
 }
 
+.formulario::placeholder{
+    text-align: center;
+}

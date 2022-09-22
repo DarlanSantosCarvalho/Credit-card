@@ -1,0 +1,151 @@
+@media (max-width: 1024px) {
+  .cartao-frente {
+    top: 80px;
+    left: 220px;
+  }
+
+  .cartao-costas {
+    top: 340px;
+    left: 280px;
+  }
+
+  .formulario {
+    margin-right: 70px;
+  }
+
+  .cartao-frente img,
+  .cartao-costas img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .numero-cartao {
+    top: 120px;
+    left: 15px;
+    font-size: 1.5rem;
+  }
+
+  .nome-cartao {
+    top: 160px;
+    left: 20px;
+    font-size: 1rem;
+  }
+
+  .validade-cartao {
+    top: 160px;
+    left: 245px;
+    font-size: 1rem;
+  }
+
+  .cvv-cartao {
+    top: 80px;
+    left: 220px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cartao-frente {
+    top: 80px;
+    left: 20px;
+  }
+
+  .cartao-costas {
+    top: 290px;
+    left: 100px;
+  }
+
+  .formulario {
+    padding-top: 150px;
+    margin-right: 20px;
+  }
+
+  .cartao-frente img,
+  .cartao-costas img {
+    height: 170px;
+    width: 280px;
+  }
+
+  .numero-cartao {
+    top: 90px;
+    left: 20px;
+    font-size: 1.3rem;
+  }
+
+  .nome-cartao {
+    top: 130px;
+    left: 20px;
+    font-size: 1rem;
+  }
+
+  .validade-cartao {
+    top: 130px;
+    left: 205px;
+    font-size: 1rem;
+  }
+
+  .cvv-cartao {
+    top: 68px;
+    left: 200px;
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .cartao-frente {
+    top: 100px;
+    left: 60px;
+    z-index: 1;
+  }
+
+  .cartao-costas {
+    top: 30px;
+    left: 130px;
+  }
+
+  .cartao-frente img,
+  .cartao-costas img {
+    height: 150px;
+    width: 250px;
+  }
+
+  .formulario {
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    margin: 5px;
+  }
+
+  .container{
+    flex-direction: column;
+  }
+
+  .numero-cartao {
+    top: 90px;
+    left: 25px;
+    font-size: 1.1rem;
+  }
+
+  .nome-cartao {
+    top: 120px;
+    left: 25px;
+    font-size: 0.9rem;
+  }
+
+  .validade-cartao {
+    top: 120px;
+    left: 180px;
+    font-size: 0.9rem;
+  }
+
+  .cvv-cartao {
+    top: 60px;
+    left: 185px;
+    font-size: 1.1rem;
+  }
+
+  .imagem-fundo img {
+    height: 300px;
+    width: 425px;
+  }
+}
