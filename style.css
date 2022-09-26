@@ -82,6 +82,10 @@ p{
     font-size: 1.2rem;
 }
 
+.numero-cartao{
+    text-decoration: none;
+}
+
 .formulario{
     display: flex;
     flex-direction: column;
