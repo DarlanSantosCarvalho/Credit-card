@@ -1,150 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html{
-    font-size: 62,5%;
-    font-family: 'Kanit', sans-serif;
+html {
+  font-size: 62, 5%;
+  font-family: "Kanit", sans-serif;
 }
 
-div.container{
-    display: flex;
-    justify-content: space-between;
+div.container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.imagem-fundo img{
-    height: 100vh;
-    width: 500px;
-    position: relative;
+.imagem-fundo img {
+  height: 100vh;
+  width: 500px;
+  position: relative;
 }
 
 .cartao-frente,
-.cartao-costas{
-    position: absolute;
+.cartao-costas {
+  position: absolute;
 }
 
 .cartao-frente img,
-.cartao-costas img{
-    height: 220px;
-    width: 350px;
+.cartao-costas img {
+  height: 220px;
+  width: 350px;
 }
 
-.cartao-frente{
-    top: 120px;
-    left: 200px;
+.cartao-frente {
+  top: 120px;
+  left: 200px;
 }
 
-.cartao-costas{
-    top: 380px;
-    left: 320px;
+.cartao-costas {
+  top: 380px;
+  left: 320px;
 }
 
-.dados-cartao{
-    position: absolute;
-    top: 0;
+.dados-cartao {
+  position: absolute;
+  top: 0;
 }
 
-p{
-    color: white;
+p {
+  color: white;
 }
 
-.numero-cartao{
-    position: absolute;
-    top: 120px;
-    left: 10px;
-    font-size: 1.8rem;
-    width: 400px;
+.invalido {
+  border: 1px solid red;
 }
 
-.nome-cartao{
-    position: absolute;
-    top: 170px;
-    left: 15px;
-    font-size: 1.2rem;
-    width: 300px;
+.valido {
+  border: 1px solid rgb(8, 185, 8);
 }
 
-.validade-cartao{
-    position: absolute;
-    top: 170px;
-    left: 270px;
-    font-size: 1.2rem;
+.numero-cartao {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  font-size: 1.8rem;
+  width: 400px;
 }
 
-.cvv-cartao{
-    position: absolute;
-    top: 95px;
-    left: 280px;
-    font-size: 1.2rem;
+.nome-cartao {
+  position: absolute;
+  top: 170px;
+  left: 15px;
+  font-size: 1.2rem;
+  width: 300px;
 }
 
-.numero-cartao{
-    text-decoration: none;
+.validade-cartao {
+  position: absolute;
+  top: 170px;
+  left: 270px;
+  font-size: 1.2rem;
 }
 
-.formulario{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 200px;
-    width: 350px;
-    margin-right: 200px;
+.cvv-cartao {
+  position: absolute;
+  top: 95px;
+  left: 280px;
+  font-size: 1.2rem;
 }
 
-.formulario input{
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: 1px solid rgba(161, 161, 161, 0.411);
+.numero-cartao {
+  text-decoration: none;
 }
 
-.formulario .validade{
-    display: inline;
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 200px;
+  width: 350px;
+  margin-right: 200px;
 }
 
-.conjunto-card-form{
-    display: flex;
-    justify-content: space-around;
+.formulario input {
+  padding: 10px 15px;
+  border-radius: 10px;
 }
 
-.numero-card input{
-    width: 140px;
-    margin-right: 10px;
+.formulario .validade {
+  display: inline;
+}
+
+.conjunto-card-form {
+  display: flex;
+  justify-content: space-around;
+}
+
+.numero-card input {
+  width: 140px;
+  margin-right: 10px;
 }
 
 .validade .mes-cartao,
-.ano-cartao{
-    width: 55px;
+.ano-cartao {
+  width: 55px;
 }
 
-.validade{
-    display: block;
-    width: 150px;
-    position: relative;
+.validade {
+  display: block;
+  width: 150px;
+  position: relative;
 }
 
-.ano-cartao{
-    position: absolute;
-    top: 28px;
-    left: 70px;
+.ano-cartao {
+  position: absolute;
+  top: 24px;
+  left: 70px;
 }
 
-.formulario p{
-    color: #220930c2;
+.formulario p {
+  color: #220930c2;
 }
 
-.formulario .confirmar{
-    padding: 15px 115px;
-    background-color: #220930;
-    color: white;
-    font-family: 'Kanit', sans-serif;
-    font-size: 1.1rem;
-    cursor: pointer;
+.formulario .confirmar {
+  padding: 15px 115px;
+  background-color: #220930;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: 1.1rem;
+  cursor: pointer;
 }
 
-.formulario::placeholder{
-    text-align: center;
+.formulario::placeholder {
+  text-align: center;
 }
