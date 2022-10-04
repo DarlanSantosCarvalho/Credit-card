@@ -52,6 +52,18 @@ p {
   color: white;
 }
 
+#aviso{
+  color: red;
+  font-size: 1rem;
+}
+
+p.barra{
+  position: absolute;
+  top: 170px;
+  left: 294px;
+  font-size: 1.2rem;
+}
+
 .invalido {
   border: 1px solid red;
 }
@@ -72,22 +84,29 @@ p {
   position: absolute;
   top: 170px;
   left: 15px;
-  font-size: 1.2rem;
-  width: 300px;
+  font-size: 1.1rem;
+  width: 250px;
 }
 
-.validade-cartao {
+.validade-ano{
   position: absolute;
   top: 170px;
-  left: 270px;
-  font-size: 1.2rem;
+  left: 305px;
+  font-size: 1.1rem;
+}
+
+.validade-mes{
+  position: absolute;
+  top: 170px;
+  left: 268px;
+  font-size: 1.1rem;
 }
 
 .cvv-cartao {
   position: absolute;
   top: 95px;
   left: 280px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .numero-cartao {

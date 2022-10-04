@@ -25,15 +25,21 @@
                 <div class="cartao-frente"><img src="assets/images/bg-card-front.png" alt="">
 
                     <div class="dados-cartao">
-                        <p id="numero-novo" class="numero-cartao">0000 0000 0000 0000</p>
-                        <p id="nome-novo" class="nome-cartao">Nome Sobrenome</p>
-                        <p id="validade-nova" class="validade-cartao">00/00</p>
+                        <p id="numero" class="numero-cartao">0000 0000 0000 0000</p>
+                        <p id="nome" class="nome-cartao">Nome Sobrenome</p>
+
+                        <div class="validade-cartao">
+                            <p id="validade-mes" class="validade-mes">00</p>
+                            <p class="barra">/</p>
+                            <p id="validade-ano" class="validade-ano">00</p>
+                        </div>
+
                     </div>
 
                 </div>
 
                 <div class="cartao-costas"><img src="assets/images/bg-card-back.png" alt="">
-                    <div class="cvv-cartao">
+                    <div class="cvv-cartao" id="cvv">
                         <p class="cvv">000</p>
                     </div>
                 </div>
@@ -46,8 +52,9 @@
 
             <div class="usuario-card">
                 <p>Usuário do cartão</p>
-                <input type="text" name="" class="nome-cartao-input form" id="nome-input"
-                    placeholder="Ex: Lionel Messi">
+                <input type="text" maxlength="30" class="nome-cartao-input form" id="nome-input"
+                    placeholder="Lionel Andrés Messi">
+                    <p class="aviso" id="aviso"></p>
             </div>
 
             <div class="number-card">
@@ -66,8 +73,7 @@
 
                 <div class="numero-card">
                     <p>CVV</p>
-                    <input type="text" maxlength="3" class="validacao-cartao form" id="cvv-input"
-                        placeholder="Ex: 123">
+                    <input type="text" maxlength="3" class="validacao-cartao form" id="cvv-input" placeholder="123">
                 </div>
             </div>
 
